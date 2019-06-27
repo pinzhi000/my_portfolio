@@ -42,7 +42,7 @@ body {
 
 
 .aboutImage{
-    max_width: 100%; 
+    max_width: 50%; 
     
 }
 
@@ -406,6 +406,34 @@ body {
     width: 100%; 
     height: 100%; 
     background: url(../img/loader.gif) center center no-repeat; /* vertically and horizontally centered and no repeat of images */
+}
+
+
+
+/* horizontal scrolling arrows for technical skills */
+
+.owl-carousel {
+    position: relative;
+}
+ 
+.owl-nav {
+    font-size: 30px;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+ 
+.owl-prev,
+.owl-next {
+    position: absolute;
+}
+ 
+.owl-prev {
+    left: 0px;
+}
+ 
+.owl-next {
+    right: 0px;
 }
 
 

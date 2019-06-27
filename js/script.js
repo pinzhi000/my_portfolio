@@ -40,6 +40,7 @@ $(document).ready(function(){  // $(): jQuery
 
 
     $('.owl-carousel').owlCarousel({
+        nav: true, // enable horizontal scrolling
         loop: true,
         items: 4,
         responsive:{ // how many items to show based on size of screen (responsive)
@@ -116,7 +117,7 @@ $(document).ready(function(){  // $(): jQuery
         $("#filters a").click(function() { // #filters a: selecting element with id of "filters" and anchor tags underneath them
 
             // remove current class selected (i.e. ALL)
-            $("#filters.current").removeClass("current"); 
+            $("#filters .current").removeClass("current"); 
 
 
             $(this).addClass("current") // "this" refers to the object event is called on (i.e. click event so refers to element clicked on)
